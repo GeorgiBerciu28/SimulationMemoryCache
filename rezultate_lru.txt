@@ -1,0 +1,80 @@
+=== SIMULARE CACHE ===
+Politică: LRU
+
+MISS (LRU) - pus în linia 0
+
+=== STAREA CURENTĂ A CACHE-ULUI ===
+Linia 0 | TAG=0 | Bloc: 0 10 20 30 
+Linia 1 | INVALIDĂ
+Linia 2 | INVALIDĂ
+Linia 3 | INVALIDĂ
+Linia 4 | INVALIDĂ
+Linia 5 | INVALIDĂ
+
+MISS (LRU) - pus în linia 1
+
+=== STAREA CURENTĂ A CACHE-ULUI ===
+Linia 0 | TAG=0 | Bloc: 0 10 20 30 
+Linia 1 | TAG=1 | Bloc: 40 50 60 70 
+Linia 2 | INVALIDĂ
+Linia 3 | INVALIDĂ
+Linia 4 | INVALIDĂ
+Linia 5 | INVALIDĂ
+
+MISS (LRU) - pus în linia 2
+
+=== STAREA CURENTĂ A CACHE-ULUI ===
+Linia 0 | TAG=0 | Bloc: 0 10 20 30 
+Linia 1 | TAG=1 | Bloc: 40 50 60 70 
+Linia 2 | TAG=2 | Bloc: 80 90 100 110 
+Linia 3 | INVALIDĂ
+Linia 4 | INVALIDĂ
+Linia 5 | INVALIDĂ
+
+MISS (LRU) - pus în linia 3
+
+=== STAREA CURENTĂ A CACHE-ULUI ===
+Linia 0 | TAG=0 | Bloc: 0 10 20 30 
+Linia 1 | TAG=1 | Bloc: 40 50 60 70 
+Linia 2 | TAG=2 | Bloc: 80 90 100 110 
+Linia 3 | TAG=3 | Bloc: 120 130 140 150 
+Linia 4 | INVALIDĂ
+Linia 5 | INVALIDĂ
+
+HIT (LRU) - linia 0
+MISS (LRU) - pus în linia 4
+
+=== STAREA CURENTĂ A CACHE-ULUI ===
+Linia 0 | TAG=0 | Bloc: 0 10 20 30 
+Linia 1 | TAG=1 | Bloc: 40 50 60 70 
+Linia 2 | TAG=2 | Bloc: 80 90 100 110 
+Linia 3 | TAG=3 | Bloc: 120 130 140 150 
+Linia 4 | TAG=4 | Bloc: 160 170 180 190 
+Linia 5 | INVALIDĂ
+
+HIT (LRU) - linia 0
+HIT (LRU) - linia 1
+MISS (LRU) - pus în linia 5
+
+=== STAREA CURENTĂ A CACHE-ULUI ===
+Linia 0 | TAG=0 | Bloc: 0 10 20 30 
+Linia 1 | TAG=1 | Bloc: 40 50 60 70 
+Linia 2 | TAG=2 | Bloc: 80 90 100 110 
+Linia 3 | TAG=3 | Bloc: 120 130 140 150 
+Linia 4 | TAG=4 | Bloc: 160 170 180 190 
+Linia 5 | TAG=5 | Bloc: 200 210 220 230 
+
+MISS (LRU) - pus în linia 2
+
+=== STAREA CURENTĂ A CACHE-ULUI ===
+Linia 0 | TAG=0 | Bloc: 0 10 20 30 
+Linia 1 | TAG=1 | Bloc: 40 50 60 70 
+Linia 2 | TAG=6 | Bloc: 240 250 260 270 
+Linia 3 | TAG=3 | Bloc: 120 130 140 150 
+Linia 4 | TAG=4 | Bloc: 160 170 180 190 
+Linia 5 | TAG=5 | Bloc: 200 210 220 230 
+
+
+HIT-uri: 3
+MISS-uri: 7
+Rată HIT: 30.00%
