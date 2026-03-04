@@ -4,7 +4,6 @@ A Java desktop application that simulates the behavior of a **CPU cache memory**
 
 The project demonstrates core **computer architecture concepts** such as cache organization, replacement strategies, and write policies through an interactive graphical interface.
 
----
 
 # Features
 
@@ -28,7 +27,6 @@ The project demonstrates core **computer architecture concepts** such as cache o
   - Hit rate
   - Miss rate
 
----
 
 # Tech Stack
 
@@ -37,7 +35,6 @@ The project demonstrates core **computer architecture concepts** such as cache o
 - **Java Collections Framework**
 - **File I/O**
 
----
 
 The architecture separates:
 
@@ -47,7 +44,6 @@ The architecture separates:
 
 This modular design allows easy extension with new policies or mapping strategies.
 
----
 
 # Implemented Concepts
 
@@ -58,7 +54,6 @@ This modular design allows easy extension with new policies or mapping strategie
 - Cache Hit/Miss Tracking
 - Cache Performance Metrics
 
----
 
 # What This Project Demonstrates
 
